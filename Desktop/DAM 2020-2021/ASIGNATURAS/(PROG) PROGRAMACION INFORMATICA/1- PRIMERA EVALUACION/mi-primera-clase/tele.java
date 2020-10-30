@@ -1,4 +1,4 @@
-public class tele {
+ public class tele {
 
     private String dueño;
     private int numeroCanales;
@@ -38,11 +38,13 @@ public class tele {
     }
     
     public void imprimirDetalles(){
-        System. out. println("el dueño de la tele es ");
-        System. out. println(dueño);
-        System. out. println("la television tiene un total de  ");
-        System. out. println(numeroCanales + "canales");
-        System. out. println("la tele esta encendida :" + teleConectada);
+        System. out. println("dueño :" + dueño + " canales : " + numeroCanales + " tele encendida : " + teleConectada);
+        
     }
     
+    public String detalles(){
+    
+        return ("dueño :" + dueño + " canales :" + numeroCanales + " tele encendida :" + teleConectada);
+    
+    }
 }
