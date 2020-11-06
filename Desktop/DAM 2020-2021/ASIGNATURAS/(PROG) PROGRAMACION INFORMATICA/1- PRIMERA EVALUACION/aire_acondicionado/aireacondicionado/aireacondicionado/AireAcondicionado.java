@@ -9,22 +9,38 @@ public class AireAcondicionado
 {
    
     private double temperatura;
+    private double min;
+    private double max;
+    private double incremento;
     
-    
-    public AireAcondicionado()
+    public AireAcondicionado(double minDe, double maxDe)
     {
         temperatura = 15.0;
+        incremento = 5.0;
+        min = minDe;
+        max = maxDe;
     }
     
     public void subirTemperatura(){
-        temperatura = temperatura + 5.0;
+        if(temperatura < max){
+            temperatura = temperatura + incremento;
+        }   
     }
     
     public void bajarTemperatura(){
-        temperatura = temperatura - 5.0;
+        if(temperatura > min){
+            temperatura = temperatura - incremento;
+        }
     }
     
     public double getTemperatura(){
         return temperatura;
     }
+    
+    public void setIncremento(double incrementoDe){
+        if(incrementoDe > 0){
+            incremento = incrementoDe;
+        }
+    }
 }
+
