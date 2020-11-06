@@ -31,8 +31,8 @@ public class AireAcondicionado
         if(temperatura + incremento <= max){
             temperatura = temperatura + incremento;
             cambioTemperatura = cambioTemperatura + 1;
-            if(maxLlegado - incremento <= max){
-                maxLlegado = maxLlegado + incremento;
+            if(temperatura > maxLlegado){
+                maxLlegado = temperatura;
             }
         }   
     }
@@ -41,8 +41,8 @@ public class AireAcondicionado
         if(temperatura - incremento >= min){
             temperatura = temperatura - incremento;
             cambioTemperatura = cambioTemperatura + 1;
-            if(minLlegado - incremento >= min) {
-                minLlegado = minLlegado - incremento;
+            if(temperatura < minLlegado) {
+                minLlegado = temperatura;
             }
         }
     }
