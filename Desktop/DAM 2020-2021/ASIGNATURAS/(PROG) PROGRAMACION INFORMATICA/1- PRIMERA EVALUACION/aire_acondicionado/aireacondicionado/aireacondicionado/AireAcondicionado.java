@@ -13,6 +13,8 @@ public class AireAcondicionado
     private double max;
     private double incremento;
     private int cambioTemperatura;
+    private double maxLlegado;
+    private double minLlegado;
     public AireAcondicionado(double minDe, double maxDe)
     {
         temperatura = 15.0;
@@ -20,12 +22,16 @@ public class AireAcondicionado
         min = minDe;
         max = maxDe;
         cambioTemperatura = 0;
+        maxLlegado = temperatura;
+        minLlegado = temperatura;
     }
     
     public void subirTemperatura(){
+        
         if(temperatura + incremento <= max){
             temperatura = temperatura + incremento;
             cambioTemperatura = cambioTemperatura + 1;
+            maxLlegado = maxLlegado + incremento;
         }   
     }
     
@@ -33,6 +39,7 @@ public class AireAcondicionado
         if(temperatura - incremento >= min){
             temperatura = temperatura - incremento;
             cambioTemperatura = cambioTemperatura + 1;
+            minLlegado = minLlegado - incremento;
         }
     }
     
@@ -47,11 +54,11 @@ public class AireAcondicionado
     }
     
     public void mostrarEstadisticas(){
-        System. out. println("Temperatura actual: " + temperatura + " temperatura minima seleccionada: " + min + " Temperatura maxima seleccionada: " + max + " Temperatura Cambiada " + cambioTemperatura + " veces." );
+        System. out. println("Temperatura actual: " + temperatura + " temperatura minima seleccionada: " + minLlegado + " Temperatura maxima seleccionada: " + maxLlegado + " Temperatura Cambiada " + cambioTemperatura + " veces." );
     }
     
     public String getEstadisticas(){
-        return ("Temperatura actual: " + temperatura + " temperatura minima seleccionada: " + min + " Temperatura maxima seleccionada: " + max + " Temperatura Cambiada " + cambioTemperatura + " veces." );
+        return ("Temperatura actual: " + temperatura + " temperatura minima seleccionada: " + minLlegado + " Temperatura maxima seleccionada: " + maxLlegado + " Temperatura Cambiada " + cambioTemperatura + " veces." );
     }
 }
 
