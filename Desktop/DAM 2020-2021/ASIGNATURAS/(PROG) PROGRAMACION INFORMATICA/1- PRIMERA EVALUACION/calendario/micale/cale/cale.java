@@ -15,7 +15,28 @@ public class cale
     }
     
     public String obtenerFecha(){
-        return (dia + " - " + mes + " - " + año);
+        String jdrDia = "";
+        String jdrMes = "";
+        String jdrAño = "";
+        if(dia < 10){
+            jdrDia = "0" + dia;
+        }
+        else{
+            jdrDia = "" + dia;
+        }
+        if(mes < 10){
+            jdrMes = "0" + mes;
+        }
+        else{
+            jdrMes = "" + mes;
+        }
+        if(año < 10){
+            jdrAño = "0" + año;
+        }
+        else{
+            jdrAño = "" + año;
+        }
+    return (jdrDia + " - " + jdrMes + " - " + jdrAño);
     }
     
     public void fijarFecha(int diaDe, int mesDe, int añoDe){
