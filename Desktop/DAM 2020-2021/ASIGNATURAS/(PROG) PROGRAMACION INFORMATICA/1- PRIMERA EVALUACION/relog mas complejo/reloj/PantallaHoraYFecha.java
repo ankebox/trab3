@@ -16,9 +16,9 @@ public class PantallaHoraYFecha
     
         pantallaHora = new PantallaDosDigitos(0, 24);
         pantallaMinuto = new PantallaDosDigitos(0, 60);
-        pantallaDia = new PantallaDosDigitos(1, 30);
-        pantallaMes = new PantallaDosDigitos(1, 12);
-        pantallaAño = new PantallaDosDigitos(1, 99);
+        pantallaDia = new PantallaDosDigitos(1, 31);
+        pantallaMes = new PantallaDosDigitos(1, 13);
+        pantallaAño = new PantallaDosDigitos(1, 100);
        
     }
     
@@ -28,6 +28,18 @@ public class PantallaHoraYFecha
     
     public void avanzarMinuto(){
         pantallaMinuto.incrementaValorAlmacenado();
+        if(pantallaMinuto.getValorAlmacenado() == 0){
+            pantallaHora.incrementaValorAlmacenado();
+            if(pantallaHora.getValorAlmacenado() == 0){
+                pantallaDia.incrementaValorAlmacenado();
+                if(pantallaDia.getValorAlmacenado() == 1) {
+                    pantallaMes.incrementaValorAlmacenado(); 
+                    if(pantallaMes.getValorAlmacenado() == 1) {
+                     pantallaAño.incrementaValorAlmacenado();
+                    }
+                }
+            }
+        }   
     }
 
     public void fijarFechaYHora(int horaDe, int minutoDe, int diaDe, int mesDe, int añoDe){
