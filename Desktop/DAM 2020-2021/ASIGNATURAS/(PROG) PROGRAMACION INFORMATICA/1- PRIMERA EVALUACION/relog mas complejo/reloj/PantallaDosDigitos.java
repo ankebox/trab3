@@ -67,4 +67,5 @@ public class PantallaDosDigitos
         int valorIncrementadoEnElIntervalo = valorIncrementadoReajustado % tamanoIntervalo;
         valorAlmacenado =  valorIncrementadoEnElIntervalo + valorInicial;
     }
+    
 }
