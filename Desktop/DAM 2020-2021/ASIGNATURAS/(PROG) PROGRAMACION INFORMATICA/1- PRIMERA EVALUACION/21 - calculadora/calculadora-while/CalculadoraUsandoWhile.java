@@ -33,4 +33,41 @@ public class CalculadoraUsandoWhile
            refer = refer + 5;
         }
     }
+    
+    public void sumaDeValores() {
+        int refer = 0;
+        int total = 0;
+        while (refer <= 10) {
+            refer = refer + 1;
+            total = total + refer;
+        }
+        System. out. println(total);
+    }
+     
+    public int sumaDeValoresEnElIntervalo (int a, int b){
+        int reserva = 0;
+        int resultado = a;
+        int total = 0;
+        if((a >= 0 ) && ( b >= 0)){
+            if (a > b) {
+                reserva = a;
+                a = b;
+                b = reserva;
+                resultado = a;
+            }
+            int numero = a;
+            while (numero < b) {
+                numero = numero + 1;
+                resultado = resultado + numero;
+            }
+            total = resultado;
+        }
+        else{
+            System. out. println("error, introduzca solo numeros positivos");
+            resultado = -1;
+           
+            total = resultado;
+        }
+        return total;
+    }
 }
