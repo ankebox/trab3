@@ -37,7 +37,7 @@ public class CalculadoraUsandoWhile
     public void sumaDeValores() {
         int refer = 0;
         int total = 0;
-        while (refer <= 10) {
+        while (refer < 10) {
             refer = refer + 1;
             total = total + refer;
         }
