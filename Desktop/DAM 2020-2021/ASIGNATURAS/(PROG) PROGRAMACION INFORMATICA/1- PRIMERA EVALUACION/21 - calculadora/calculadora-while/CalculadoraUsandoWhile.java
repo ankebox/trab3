@@ -70,4 +70,20 @@ public class CalculadoraUsandoWhile
         }
         return total;
     }
+    
+    public boolean esPrimo (int a) {
+        boolean primo = true;
+        int dividendo = 2;
+        int noPrimo = 0;
+        while ((dividendo < a - 1) && (primo == true)){
+            
+            if (noPrimo == (a % dividendo)) {
+                primo = false;
+            }
+           
+            dividendo = dividendo + 1;
+        }
+        
+        return primo;
+    }
 }
