@@ -52,7 +52,7 @@ public class RandomTester
         }
     }
     
-    public void getNumeroEntre0Y (int deMaximo) {
+    public void getNumeroEntre0Y(int deMaximo) {
         Random generador = new Random();
         int maximo = deMaximo;
         int numeroAleatorio = generador.nextInt(maximo);
@@ -60,7 +60,14 @@ public class RandomTester
         System.out.println(numeroAleatorio);
     }
     
-    public void getNumeroEntre (int deMinimo, int deMaximo) {
+    public void getNumeroEntre0YMio(int deMaximo){
+        Random generador = new Random();
+        int maximo =  deMaximo;
+        int numeroAleatorio = generador.nextInt(maximo + 1);
+        System.out.println(numeroAleatorio);
+    }
+    
+    public void getNumeroEntre(int deMinimo, int deMaximo) {
         Random generador = new Random();
         int maximo =  deMaximo;
         int minimo = deMinimo;
