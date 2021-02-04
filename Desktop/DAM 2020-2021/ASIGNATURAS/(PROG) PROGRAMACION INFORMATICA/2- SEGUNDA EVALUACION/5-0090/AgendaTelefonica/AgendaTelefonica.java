@@ -25,16 +25,11 @@ public class AgendaTelefonica
      * @param  y   a sample parameter for a method
      * @return     the sum of x and y 
      */
-    public void enterNumber(String deName, String deNumber){
-        String name = deName;
-        String number = deNumber;
+    public void enterNumber(String name, String number){
         agenda.put(name, number);
-        
     }
     
-    public String lookupNumber(String deName){
-        String name = deName;
-        
+    public String lookupNumber(String name){
         return agenda.get(name);
     }
 }
