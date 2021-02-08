@@ -32,4 +32,17 @@ public class AgendaTelefonica
     public String lookupNumber(String name){
         return agenda.get(name);
     }
+    
+    public void printAllNames(){
+        System.out.println(agenda.keySet());
+    }
+    
+    public void printAllNamesOneMultiline(){
+        for(String entry : agenda.keySet()) {
+            System.out.println(entry);
+        }
+        
+    }
+    
+    
 }
