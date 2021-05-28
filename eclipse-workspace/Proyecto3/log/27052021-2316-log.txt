@@ -1,0 +1,14 @@
+Thu May 27 23:16:31 CEST 2021 El alumno ha empezado a jugar a hayar el volumen del cono 
+Thu May 27 23:16:31 CEST 2021 Se ha determinado que el radio valdra 6.0
+Thu May 27 23:16:31 CEST 2021 Se ha determinado que la altura valdra 10.0
+Thu May 27 23:16:31 CEST 2021 Con estos datos el volumen sera igual a 376,99
+Thu May 27 23:16:32 CEST 2021 El alumno ha propuesto de respuesta para el volumen  61212
+Thu May 27 23:16:32 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado se ha olvidado de poner la coma y la parte decimal
+Thu May 27 23:16:34 CEST 2021 El alumno ha propuesto de respuesta para el volumen  2
+Thu May 27 23:16:34 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado se ha olvidado de poner la coma y la parte decimal
+Thu May 27 23:16:37 CEST 2021 El alumno ha propuesto de respuesta para el volumen  2,44
+Thu May 27 23:16:37 CEST 2021 El alumno ha fallado la respuesta y debera proponer una nueva respuesta
+Thu May 27 23:16:40 CEST 2021 El alumno ha propuesto de respuesta para el volumen  5,5
+Thu May 27 23:16:40 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado ha de introducir solo 2 decimales
+Thu May 27 23:16:45 CEST 2021 El alumno ha propuesto de respuesta para el volumen  376,99
+Thu May 27 23:16:45 CEST 2021 El alumno ha acertado correctamente el volumen en 5 intentos

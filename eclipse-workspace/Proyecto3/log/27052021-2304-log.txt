@@ -1,0 +1,11 @@
+Thu May 27 23:04:14 CEST 2021 El alumno ha empezado a jugar a hayar el volumen del cubo 
+Thu May 27 23:04:14 CEST 2021 Se ha determinado que el lado valdra 6.0
+Thu May 27 23:04:14 CEST 2021 Con estos datos el volumen sera igual a 216,00
+Thu May 27 23:04:16 CEST 2021 El alumno ha propuesto de respuesta para el volumen  15
+Thu May 27 23:04:16 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado se ha olvidado de poner la coma y la parte decimal
+Thu May 27 23:04:18 CEST 2021 El alumno ha propuesto de respuesta para el volumen  1
+Thu May 27 23:04:18 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado se ha olvidado de poner la coma y la parte decimal
+Thu May 27 23:04:20 CEST 2021 El alumno ha propuesto de respuesta para el volumen  ,0
+Thu May 27 23:04:20 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado ha de introducir solo 2 decimales
+Thu May 27 23:04:24 CEST 2021 El alumno ha propuesto de respuesta para el volumen  15,00
+Thu May 27 23:04:24 CEST 2021 El alumno ha fallado la respuesta y debera proponer una nueva respuesta

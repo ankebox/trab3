@@ -1,0 +1,6 @@
+Thu May 27 23:05:59 CEST 2021 El alumno ha empezado a jugar a hayar el area del cubo 
+Thu May 27 23:05:59 CEST 2021 Se ha determinado que el lado valdra 10.0
+Thu May 27 23:05:59 CEST 2021 Con estos datos el area sera igual a 600,00
+Thu May 27 23:05:59 CEST 2021 El alumno ha propuesto de respuesta para el area  1
+Thu May 27 23:06:00 CEST 2021 El alumno ha propuesto de respuesta para el volumen  51
+Thu May 27 23:06:00 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado se ha olvidado de poner la coma y la parte decimal

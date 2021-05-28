@@ -1,0 +1,4 @@
+Thu May 27 20:39:21 CEST 2021 El alumno ha empezado a jugar a hayar el area de la esfera 
+Thu May 27 20:39:21 CEST 2021 Se ha determinado que el radio valdra 3.0
+Thu May 27 20:39:21 CEST 2021 Con estos datos el area sera igual a 113,10
+Thu May 27 20:39:23 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado se ha olvidado de poner la coma y la parte decimal

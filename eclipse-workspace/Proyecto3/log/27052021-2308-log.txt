@@ -1,0 +1,5 @@
+Thu May 27 23:08:53 CEST 2021 El alumno ha empezado a jugar a hayar el area del cubo 
+Thu May 27 23:08:53 CEST 2021 Se ha determinado que el lado valdra 2.0
+Thu May 27 23:08:53 CEST 2021 Con estos datos el area sera igual a 24,00
+Thu May 27 23:08:57 CEST 2021 El alumno ha propuesto de respuesta para el area  24,00
+Thu May 27 23:08:57 CEST 2021 El alumno ha acertado correctamente el area en 1 intentos

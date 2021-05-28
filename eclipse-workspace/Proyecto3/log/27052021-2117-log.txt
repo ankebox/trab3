@@ -1,0 +1,3 @@
+Thu May 27 21:17:42 CEST 2021 El alumno ha empezado a jugar a hayar el area de la esfera 
+Thu May 27 21:17:42 CEST 2021 Se ha determinado que el radio valdra 10.0
+Thu May 27 21:17:42 CEST 2021 Con estos datos el area sera igual a 1256,64

@@ -1,0 +1,15 @@
+Thu May 27 21:25:04 CEST 2021 El alumno ha empezado a jugar a hayar el volumen de la esfera 
+Thu May 27 21:25:04 CEST 2021 Se ha determinado que el radio valdra 5.0
+Thu May 27 21:25:04 CEST 2021 Con estos datos el volumen sera igual a 523,60
+Thu May 27 21:25:06 CEST 2021 El alumno ha propuesto de respuesta para el volumen  54
+Thu May 27 21:25:06 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado se ha olvidado de poner la coma y la parte decimal
+Thu May 27 21:25:11 CEST 2021 El alumno ha propuesto de respuesta para el volumen  ,60
+Thu May 27 21:25:11 CEST 2021 El alumno ha fallado la respuesta y debera proponer una nueva respuesta
+Thu May 27 21:25:35 CEST 2021 El alumno ha propuesto de respuesta para el volumen  51,4
+Thu May 27 21:25:35 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado ha de introducir solo 2 decimales
+Thu May 27 21:25:37 CEST 2021 El alumno ha propuesto de respuesta para el volumen  541.5
+Thu May 27 21:25:37 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado se ha olvidado de poner la coma y la parte decimal
+Thu May 27 21:25:43 CEST 2021 El alumno ha propuesto de respuesta para el volumen  54,24
+Thu May 27 21:25:43 CEST 2021 El alumno ha fallado la respuesta y debera proponer una nueva respuesta
+Thu May 27 21:25:49 CEST 2021 El alumno ha propuesto de respuesta para el volumen  523,60
+Thu May 27 21:25:49 CEST 2021 El alumno ha acertado correctamente el volumen en 6 intentos

@@ -1,0 +1,5 @@
+Fri May 28 09:24:21 CEST 2021 El alumno ha empezado a jugar a hayar el volumen del cubo 
+Fri May 28 09:24:21 CEST 2021 Se ha determinado que el lado valdra 3.0
+Fri May 28 09:24:21 CEST 2021 Con estos datos el volumen sera igual a 27,00
+Fri May 28 09:24:29 CEST 2021 El alumno ha propuesto de respuesta para el volumen  27,00
+Fri May 28 09:24:29 CEST 2021 El alumno ha acertado correctamente el volumen en 1 intentos

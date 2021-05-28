@@ -1,0 +1,16 @@
+Thu May 27 23:14:38 CEST 2021 El alumno ha empezado a jugar a hayar el area del cono 
+Thu May 27 23:14:38 CEST 2021 Se ha determinado que el radio valdra 1.0
+Thu May 27 23:14:38 CEST 2021 Se ha determinado que el lado valdra 14.0
+Thu May 27 23:14:38 CEST 2021 Con estos datos el area sera igual a 47,12
+Thu May 27 23:14:40 CEST 2021 El alumno ha propuesto de respuesta para el area  5
+Thu May 27 23:14:40 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado se ha olvidado de poner la coma y la parte decimal
+Thu May 27 23:14:44 CEST 2021 El alumno ha propuesto de respuesta para el area  451,2
+Thu May 27 23:14:44 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado ha de introducir solo 2 decimales
+Thu May 27 23:14:48 CEST 2021 El alumno ha propuesto de respuesta para el area  4,
+Thu May 27 23:14:48 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado ha de introducir solo 2 decimales
+Thu May 27 23:14:52 CEST 2021 El alumno ha propuesto de respuesta para el area  ,1,4
+Thu May 27 23:14:52 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado ha de introducir solo 2 decimales
+Thu May 27 23:14:58 CEST 2021 El alumno ha propuesto de respuesta para el area  654,54,54
+Thu May 27 23:14:58 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado ha de introducir solo 2 decimales
+Thu May 27 23:15:08 CEST 2021 El alumno ha propuesto de respuesta para el area  47,12
+Thu May 27 23:15:08 CEST 2021 El alumno ha acertado correctamente el area en 6 intentos

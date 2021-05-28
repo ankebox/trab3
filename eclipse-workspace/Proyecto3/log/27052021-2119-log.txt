@@ -1,0 +1,4 @@
+Thu May 27 21:19:11 CEST 2021 El alumno ha empezado a jugar a hayar el volumen del cono 
+Thu May 27 21:19:11 CEST 2021 Se ha determinado que el radio valdra 10.0
+Thu May 27 21:19:11 CEST 2021 Se ha determinado que la altura valdra 10.0
+Thu May 27 21:19:11 CEST 2021 Con estos datos el volumen sera igual a 1047,20

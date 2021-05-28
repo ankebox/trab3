@@ -1,0 +1,15 @@
+Thu May 27 23:03:46 CEST 2021 El alumno ha empezado a jugar a hayar el area del cubo 
+Thu May 27 23:03:46 CEST 2021 Se ha determinado que el lado valdra 5.0
+Thu May 27 23:03:46 CEST 2021 Con estos datos el area sera igual a 150,00
+Thu May 27 23:03:47 CEST 2021 El alumno ha propuesto de respuesta para el area  25
+Thu May 27 23:03:51 CEST 2021 El alumno ha propuesto de respuesta para el volumen  ,1
+Thu May 27 23:03:51 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado ha de introducir solo 2 decimales
+Thu May 27 23:03:55 CEST 2021 El alumno ha propuesto de respuesta para el area  5
+Thu May 27 23:03:57 CEST 2021 El alumno ha propuesto de respuesta para el volumen  5
+Thu May 27 23:03:57 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado se ha olvidado de poner la coma y la parte decimal
+Thu May 27 23:04:00 CEST 2021 El alumno ha propuesto de respuesta para el area  15,25
+Thu May 27 23:04:02 CEST 2021 El alumno ha propuesto de respuesta para el volumen  5
+Thu May 27 23:04:02 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado se ha olvidado de poner la coma y la parte decimal
+Thu May 27 23:04:06 CEST 2021 El alumno ha propuesto de respuesta para el area  15,00
+Thu May 27 23:04:09 CEST 2021 El alumno ha propuesto de respuesta para el volumen  15,00
+Thu May 27 23:04:09 CEST 2021 El alumno ha fallado la respuesta y debera proponer una nueva respuesta

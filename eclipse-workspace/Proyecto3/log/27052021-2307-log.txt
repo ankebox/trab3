@@ -1,0 +1,11 @@
+Thu May 27 23:07:57 CEST 2021 El alumno ha empezado a jugar a hayar el area del cubo 
+Thu May 27 23:07:57 CEST 2021 Se ha determinado que el lado valdra 7.0
+Thu May 27 23:07:57 CEST 2021 Con estos datos el area sera igual a 294,00
+Thu May 27 23:07:59 CEST 2021 El alumno ha propuesto de respuesta para el area  15
+Thu May 27 23:07:59 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado se ha olvidado de poner la coma y la parte decimal
+Thu May 27 23:08:02 CEST 2021 El alumno ha propuesto de respuesta para el area  0.2
+Thu May 27 23:08:02 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado se ha olvidado de poner la coma y la parte decimal
+Thu May 27 23:08:04 CEST 2021 El alumno ha propuesto de respuesta para el area  ,22
+Thu May 27 23:08:04 CEST 2021 El alumno ha fallado la respuesta y debera proponer una nueva respuesta
+Thu May 27 23:08:13 CEST 2021 El alumno ha propuesto de respuesta para el area  294,00
+Thu May 27 23:08:13 CEST 2021 El alumno ha acertado correctamente el area en 4 intentos

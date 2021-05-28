@@ -1,0 +1,9 @@
+Fri May 28 09:30:16 CEST 2021 El alumno ha empezado a jugar a hayar el volumen de la esfera 
+Fri May 28 09:30:16 CEST 2021 Se ha determinado que el radio valdra 2.0
+Fri May 28 09:30:16 CEST 2021 Con estos datos el volumen sera igual a 33,51
+Fri May 28 09:30:38 CEST 2021 El alumno ha propuesto de respuesta para el volumen  5
+Fri May 28 09:30:38 CEST 2021 El usuario ha introducido incorrectamente el formato del resultado se ha olvidado de poner la coma y la parte decimal
+Fri May 28 09:30:47 CEST 2021 El alumno ha propuesto de respuesta para el volumen  5,00
+Fri May 28 09:30:47 CEST 2021 El alumno ha fallado la respuesta y debera proponer una nueva respuesta
+Fri May 28 09:30:58 CEST 2021 El alumno ha propuesto de respuesta para el volumen  33,51
+Fri May 28 09:30:58 CEST 2021 El alumno ha acertado correctamente el volumen en 3 intentos
