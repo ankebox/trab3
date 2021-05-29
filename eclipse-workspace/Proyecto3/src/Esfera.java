@@ -69,7 +69,7 @@ public class Esfera extends Figura{
 					System.out.println("Calcula el volumen de una esfera con radio igual a: " + radio);
 					respuesta = sn.next();
 					logMenaje(rutaLog, " El alumno ha propuesto de respuesta para el volumen  " + respuesta);
-					intentos++;
+					intentos++; 
 					h.validarRespuesta(respuesta, rutaLog);
 					if(respuesta.equals(volumen)) {
 						System.out.println("EnhoraBuena has acertado el resultado correctamente el resultado el volumen es ciertamente " + volumen + "\n");

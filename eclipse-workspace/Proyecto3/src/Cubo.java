@@ -66,7 +66,7 @@ public class Cubo extends Figura {
 		do {
 			try {
 				while (terminado == 0) {
-					String respuesta ; 
+					String respuesta ;  
 					System.out.println("Calcula el volumen de un cubo que su lado mide : " + lado);
 					respuesta = sn.next();
 					logMenaje(rutaLog, " El alumno ha propuesto de respuesta para el volumen  " + respuesta);

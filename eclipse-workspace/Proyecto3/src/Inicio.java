@@ -26,7 +26,7 @@ public class Inicio {
 					switch(opcion) {
 					case 1: 
 						Esfera esf = new Esfera();
-						esf.calcularArea();
+						esf.calcularArea();  
 						salir = true;
 						bError = false;
 						break;

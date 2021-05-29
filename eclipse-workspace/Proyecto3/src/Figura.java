@@ -40,7 +40,7 @@ public abstract class Figura {
 			e.printStackTrace();
 		}
 		pw.close();
-	}
+	} 
 	
 	/**
 	 * Metodo crear los logs

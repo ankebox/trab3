@@ -27,7 +27,7 @@ public class Cono extends Figura {
 		logMenaje(rutaLog, " Con estos datos el area sera igual a " + area);
 		do {
 			try {
-				while (terminado == 0) {
+				while (terminado == 0) { 
 					String respuesta ; 
 					System.out.println("Calcula el area de un cono con radio igual a: " + radio + "\n y lado igual a: " + lado);
 					respuesta = sn.next();
