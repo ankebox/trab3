@@ -2,12 +2,12 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Inicio {
-	
 	static Scanner sn = new Scanner (System.in);
 	public static String rutaLog = "log.txt";
-	
+	/**
+	 * Metodo principal para el correcto funcionamiento del programa
+	 * */
 	public static void main(String[] args) {
-		
 		boolean salir = false;
 		int opcion;
 		Boolean bError = true;
@@ -36,42 +36,35 @@ public class Inicio {
 						salir = true;
 						bError = false;
 						break;
-					
 					case 3: 
 						Cubo cub = new Cubo();
 						cub.calcularArea();
 						salir = true;
 						bError = false;
 						break;
-					
 					case 4: 
 						Cubo cub1 = new Cubo();
 						cub1.calcularVolumen();
 						salir = true;
 						bError = false;
 						break;
-						
 					case 5: 
 						Cono con = new Cono();
 						con.calcularArea();
 						salir = true;
 						bError = false;
 						break;
-						
 					case 6: 
 						Cono con1 = new Cono();
 						con1.calcularVolumen();
 						salir = true;
 						bError = false;
 						break;
-						
 					case 7: 
 						System.out.println("Se sale");
-
 						salir = true;
 						bError = false;
 						break;
-						
 					default:
 						System.out.println("Las Opciones son entre 1 y 7");
 					}
@@ -81,6 +74,5 @@ public class Inicio {
 				sn.nextLine();
 			}
 		}while (bError);
-				
 	}
 }

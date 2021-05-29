@@ -7,9 +7,11 @@ public class Esfera extends Figura{
 	
 	public Esfera() {
 		this.bError = true;
-		
 	}
 	
+	/**
+	 * Metodo para calcular el area 
+	 * */
 	public void calcularArea() {
 		logs();
 		logMenaje(rutaLog, " El alumno ha empezado a jugar a hallar el area de la esfera ");
@@ -24,7 +26,6 @@ public class Esfera extends Figura{
 				while (terminado == 0) {
 					String respuesta ; 
 					System.out.println("Calcula el area de una esfera con radio igual a: " + radio);
-					System.out.println(area);//------------------------borrarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr-----------------------------------
 					respuesta = sn.next();
 					logMenaje(rutaLog, " El alumno ha propuesto de respuesta para el area  " + respuesta);
 					intentos++;
@@ -48,7 +49,10 @@ public class Esfera extends Figura{
 		}while (bError);
 		System.out.println("Lo has logrado en " + intentos + " intentos.\n\n");	
 	}
-
+	
+	/**
+	 * Metodo para calcular el volumen
+	 * */
 	public void calcularVolumen() {
 		logs();
 		logMenaje(rutaLog, " El alumno ha empezado a jugar a hallar el volumen de la esfera ");
@@ -63,7 +67,6 @@ public class Esfera extends Figura{
 				while (terminado == 0) {
 					String respuesta ; 
 					System.out.println("Calcula el volumen de una esfera con radio igual a: " + radio);
-					System.out.println(volumen);//------------------------borrarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr-----------------------------------
 					respuesta = sn.next();
 					logMenaje(rutaLog, " El alumno ha propuesto de respuesta para el volumen  " + respuesta);
 					intentos++;

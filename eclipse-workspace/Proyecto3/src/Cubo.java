@@ -1,6 +1,5 @@
 public class Cubo extends Figura {
 
-	
 	private double lado;
 	private String area;
 	private String volumen;
@@ -10,11 +9,13 @@ public class Cubo extends Figura {
 	public Cubo() {
 		this.bError = true;
 	}
-	
+	/**
+	 * Metodo para calcular el area
+	 *  
+	 * */
 	public void calcularArea() {
 		logs();
 		logMenaje(rutaLog, " El alumno ha empezado a jugar a hallar el area del cubo ");
-		
 		int terminado = 0;
 		int intentos = 0;
 		this.lado = (int)(Math.random()*10.0 + 1.0); 
@@ -26,7 +27,6 @@ public class Cubo extends Figura {
 				while (terminado == 0) {
 					String respuesta ; 
 					System.out.println("Calcula el area del cubo que su lado mide : " + lado);
-					System.out.println(area);//------------------------borrarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr-----------------------------------
 					respuesta = sn.next();
 					logMenaje(rutaLog, " El alumno ha propuesto de respuesta para el area  " + respuesta);
 					intentos++;
@@ -50,11 +50,13 @@ public class Cubo extends Figura {
 		}while (bError);
 		System.out.println("Lo has logrado en " + intentos + " intentos.\n\n");	
 	}
-	
+	/**
+	 * Metodo para calcular el volumen
+	 *  
+	 * */
 	public void calcularVolumen() {
 		logs();
 		logMenaje(rutaLog, " El alumno ha empezado a jugar a hallar el volumen del cubo ");
-		
 		int terminado = 0;
 		int intentos = 0;
 		this.lado = (int)(Math.random()*10.0 + 1.0); 
@@ -66,7 +68,6 @@ public class Cubo extends Figura {
 				while (terminado == 0) {
 					String respuesta ; 
 					System.out.println("Calcula el volumen de un cubo que su lado mide : " + lado);
-					System.out.println(volumen);//------------------------borrarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr-----------------------------------
 					respuesta = sn.next();
 					logMenaje(rutaLog, " El alumno ha propuesto de respuesta para el volumen  " + respuesta);
 					intentos++;

@@ -10,7 +10,10 @@ public class Cono extends Figura {
 	public Cono() {
 		this.bError = true;
 	}
-
+	
+	/**
+	 * Metodo para calcular el area 
+	 * */
 	public void calcularArea(){
 		logs();
 		logMenaje(rutaLog, " El alumno ha empezado a jugar a hallar el area del cono ");
@@ -27,7 +30,6 @@ public class Cono extends Figura {
 				while (terminado == 0) {
 					String respuesta ; 
 					System.out.println("Calcula el area de un cono con radio igual a: " + radio + "\n y lado igual a: " + lado);
-					System.out.println(area);//------------------------borrarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr-----------------------------------
 					respuesta = sn.next();
 					logMenaje(rutaLog, " El alumno ha propuesto de respuesta para el area  " + respuesta);
 					intentos++;
@@ -52,6 +54,9 @@ public class Cono extends Figura {
 		System.out.println("Lo has logrado en " + intentos + " intentos.\n\n");	
 	}
 	
+	/**
+	 * Metodo para calcular el volumen
+	 * */
 	public void calcularVolumen(){
 		logs();
 		logMenaje(rutaLog, " El alumno ha empezado a jugar a hallar el volumen del cono ");
@@ -61,7 +66,6 @@ public class Cono extends Figura {
 		logMenaje(rutaLog, " Se ha determinado que el radio valdra " + radio);
 		H  = (int)(Math.random()*10.0 + 1.0); 
 		logMenaje(rutaLog, " Se ha determinado que la altura valdra " + H);
-
 		volumen = df.format((Math.PI*(radio*radio)*H)/3);
 		logMenaje(rutaLog, " Con estos datos el volumen sera igual a " + volumen);
 		do {
@@ -69,10 +73,8 @@ public class Cono extends Figura {
 				while (terminado == 0) {
 					String respuesta ; 
 					System.out.println("Calcula el volumen de un cono con radio igual a: " + radio + "\n y altura igual a: " + H);
-					System.out.println(volumen);//------------------------borrarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr-----------------------------------
 					respuesta = sn.next();
 					logMenaje(rutaLog, " El alumno ha propuesto de respuesta para el volumen  " + respuesta);
-		
 					intentos++;
 					h.validarRespuesta(respuesta, rutaLog);
 					if(respuesta.equals(volumen)) {
